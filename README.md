@@ -52,6 +52,7 @@ Clone:\
 Uses archiso from archlinux as base.
 
 --> Added nvidia packages and bootentriy for syslinux and EFI to boot with nvidia drivers enabled.
+---> standard entries boot with nvidia blacklisted
 
 xfce4 as live environment
 Basic tools for a livecd
