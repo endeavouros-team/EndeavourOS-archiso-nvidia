@@ -1,15 +1,6 @@
 These are the basic needed files and folders to build EndeavourOS system.
 ## Add and enable endeavour Repository at your system
 
-If you added the old endeavour repo, please uninstall
-
-`sudo pacman -Rns endeavour-keyring endeavour-mirrorlist`
-
-`remove the old repo from /etc/pacman.conf`
-
-OBS: Do in this order!
-
-
 install keyring package:
 
 
@@ -46,9 +37,9 @@ If you want to add the developer repo add to your /etc/pacman.conf
 `sudo pacman -S archiso arch-install-scripts git --needed`
 
 Clone:\
-`git clone https://github.com/endeavouros-team/EndeavourOS-archiso.git`
+`git clone https://github.com/killajoe/EndeavourOS-archiso-nvidia.git`
 
-`cd EndeavourOS-archiso`
+`cd EndeavourOS-archiso-nvidia`
 
 ## Run fix permissions script
 `sudo ./fix_permissions.sh`
@@ -59,6 +50,8 @@ Clone:\
 ## The iso appears at out folder
 
 Uses archiso from archlinux as base.
+
+--> Added nvidia packages and bootentriy for syslinux and EFI to boot with nvidia drivers enabled.
 
 xfce4 as live environment
 Basic tools for a livecd
