@@ -184,6 +184,7 @@ qt5-webengine
 yaml-cpp
 extra-cmake-modules
 boost
+mkinitcpio-openswap
 # Modules
 ## welcome
 networkmanager
