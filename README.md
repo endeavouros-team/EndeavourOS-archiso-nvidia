@@ -20,17 +20,6 @@ add the repo bellow to your /etc/pacman.conf
 `SigLevel = PackageRequired`\
 `Include = /etc/pacman.d/endeavouros-mirrorlist`
 
-If you want to add the developer repo add to your /etc/pacman.conf
-
-
-`[endeavouros_developer]`\
-`SigLevel = PackageRequired`\
-`Server = https://github.com/endeavouros-team/mirrors/releases/download/mirror3-developer/`
-
-
-* Uses the same signature that normal repo and has no mirrors package to install.
-
-
 `sudo pacman -Syy`
 
 ## Install necessary packages
