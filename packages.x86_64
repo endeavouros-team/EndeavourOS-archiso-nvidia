@@ -171,7 +171,8 @@ grml-zsh-config
 galculator
 
 # calamares.endeavour
-calamares_offline
+calamares_current
+#calamares_test
 lsb-release
 libpwquality
 # for launcher
@@ -189,6 +190,9 @@ mkinitcpio-openswap
 ## welcome
 networkmanager
 upower
+
+#for encrypted swap
+mkinitcpio-openswap
 
 ## partition
 #kde partition manager
